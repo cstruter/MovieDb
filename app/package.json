@@ -1,0 +1,16 @@
+{
+	"description" : "Personal Movie Database",
+	"readme" : "readme.md",
+	"version" : "1.0.0",
+	"author" : "Christoff Truter <christoff@cstruter.com>",
+	"dependencies": {
+		"angular" : "1.4.6",
+		"jquery" : "2.1.4",
+		"jquery-mobile" : "1.4.1",
+		"underscore" : "1.8.3",
+		"gulp" : "3.9.0",
+		"gulp-uglify" : "1.4.2",
+		"gulp-uglifycss" : "1.0.4",
+		"gulp-concat" : "2.6.0"
+	}
+}
