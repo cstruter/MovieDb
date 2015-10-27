@@ -4,6 +4,8 @@ A little SPA I wrote to experiment using JQuery Mobile and AngularJS together
 in a solution. (I am not awfully sure that this is quite the best marriage of scripts, but 
 interesting nonetheless).
 
+The script currently makes use of the [OMDB API](http://www.omdbapi.com/).
+
 **Note:
 The app uses Facebook for Authentication, so you will need to register an app on http://developers.facebook.com**
 
