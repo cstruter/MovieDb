@@ -12,3 +12,12 @@ The app uses Facebook for Authentication, so you will need to register an app on
 2. In the app folder run the build.bat file, this will fetch the required JavaScript dependencies
 using the node package manager and minify the JavaScript/CSS resources (using gulp tasks) for use in the app.
 3. In the service folder run dbscripts.sql on your mysql database.
+
+#### Dependencies
+1. PHP 5.5
+2. NodeJS 4.2.1
+3. Angular 1.4.6
+4. JQuery 2.1.4
+5. JQueryMobile 1.4.1
+6. Underscore 1.8.3
+7. Gulp 3.9.0
