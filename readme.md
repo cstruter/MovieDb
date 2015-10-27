@@ -12,7 +12,7 @@ The app uses Facebook for Authentication, so you will need to register an app on
 2. In the app folder run the build.bat file, this will fetch the required JavaScript dependencies
 using the node package manager and minify the JavaScript/CSS resources (using gulp tasks) for use in the app.
 3. In the service folder run dbscripts.sql on your mysql database.
-4. The Images folder needs to be writable 
+4. The Images folder needs to be writable (used for caching IMDB images)
 
 #### Dependencies
 1. PHP 5.5
