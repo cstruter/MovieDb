@@ -87,6 +87,10 @@ function MovieController($scope, $q, OMDBService, DBService, FacebookService) {
 	
 	$scope.removeMovie = function() {
 		DBService.removeMovie($scope.movie).then(function(response) {
+			var searchResult = _.findWhere($scope.moviesFound, { imdbID : $scope.movie.imdbID });
+			if(searchResult !== undefined) {
+				searchResult.movieId = undefined;
+			}
 			$scope.movie.movieId = undefined;
 			$scope.movies.splice($scope.movies.indexOf($scope.movie), 1);
 		}, function(error) {
