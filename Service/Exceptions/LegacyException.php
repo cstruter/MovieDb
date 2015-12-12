@@ -1,6 +1,8 @@
 <?php
 
-class LegacyException extends Exception
+namespace Exceptions;
+
+class LegacyException extends \Exception
 {
 	public $errno; 
 	public $errstr;

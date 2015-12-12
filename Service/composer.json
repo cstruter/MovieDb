@@ -1,0 +1,41 @@
+{
+	"name" : "MovieDB",
+	"description" : "Personal Movie Database",
+	"version" : "1.0.1",
+	"config": {
+		"github-oauth": {
+			"github.com": ""
+		}
+	},
+	"repositories": [
+		{
+			"type" : "vcs",
+			"url" : "https://github.com/cstruter/cstruter-service"
+		},
+		{
+			"type" : "vcs",
+			"url" : "https://github.com/cstruter/cstruter-facebook"
+		},
+		{
+			"type" : "vcs",
+			"url" : "https://github.com/cstruter/cstruter-misc"
+		}		
+	],
+	"autoload": {
+		"classmap": [
+			"Repositories",
+			"Repositories/Interfaces",
+			"Exceptions",
+			"Models"
+		],
+		"files": [
+			"../config.php",
+			"Services/MovieService.php"
+		]
+	},
+	"require": {
+		"CSTruter/Service" : "0.1.0",
+		"CSTruter/Facebook" : "0.1.0",
+		"CSTruter/Misc" : "0.0.1"
+	}
+}
