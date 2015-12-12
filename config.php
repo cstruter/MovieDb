@@ -8,8 +8,8 @@ define('MYSQL_HOST', 'localhost');
 define('MYSQL_USERNAME', 'root');
 define('MYSQL_PASSWORD', '');
 define('MYSQL_DATABASE', 'movies');
-define('FBAPI', '1585875358368256');
-define('FBSECRET', 'de82896093b14e1050e4bfc7641df4b4');
+define('FBAPI', '');
+define('FBSECRET', '');
 
 function LegacyErrorHandler($errno, $errstr, $errfile, $errline)
 {
