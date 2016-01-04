@@ -6,7 +6,7 @@
 		"github-oauth": {
 			"github.com": ""
 		}
-	},
+	},	
 	"repositories": [
 		{
 			"type" : "vcs",
@@ -36,6 +36,7 @@
 	"require": {
 		"CSTruter/Service" : "0.1.0",
 		"CSTruter/Facebook" : "0.1.0",
-		"CSTruter/Misc" : "0.0.1"
+		"CSTruter/Misc" : "0.0.1",
+		"doctrine/orm": "*"
 	}
 }
